@@ -6,6 +6,8 @@ public class Practicing_Methods {
     
     
     public static void main(String[] args) {
+
+        System.out.println("s");
         System.out.println("hello");
         
         int fib1[] = {0,1,2,3,4,5};
@@ -61,7 +63,7 @@ public class Practicing_Methods {
     {
         for (int i = 2 ; i <= n/2 ; i++)
         {
-            if (n%i == 0)
+            if (  n % i == 0)
             {
                 return false;    
             }
